@@ -1,0 +1,1349 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+  font-weight: 500;
+  font-style: normal;
+}
+
+.head
+{
+    
+    height: 100vh;
+    width: 100%;
+  
+    background-color: #1363c6;
+    background-image: url(bg-hero.png);
+    background-size: cover;
+}
+
+.top
+{
+    height: 80px;
+    width: 100%;
+    padding: 20px 100px;
+    
+}
+
+.top h1{
+    color: white;
+    float: left;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: sans-serif;
+    
+}
+
+.top h1:nth-child(2)
+{
+    color: black;
+    font-size: 40px;
+}
+
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    line-height: 40px;
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+    font-size: 20px ;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+/*  top section ends here  */
+
+
+.left
+{
+    height: 89%;
+    width: 50%;
+    /* background-color: red; */
+    padding: 200px 100px;
+    float: left;
+}
+
+.left a{
+    color: white;
+    font-family: sans-serif;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.left h1{
+    padding-top: 30px;
+    font-size: 60px;
+    color: white;
+}
+
+.left p{
+    color: white;
+    padding-bottom: 30px    ;
+}
+
+.button1{
+    float: left;
+}
+
+.button1 button{
+    background: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: #123866;
+}
+
+
+
+.button2 button{
+    background: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    margin-left: 30px;
+}
+
+
+.right
+
+{
+    height:75%;
+    width: 45%;
+    /* background-color: red; */
+    padding: 200px 100px;
+    float: right;  
+    background-image: url(hero-img.png);
+    background-size: cover;
+    margin-top: 105px;
+    margin-right: 70px;
+}
+
+
+
+
+.center
+{
+    height: 700px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 50px 100px;
+}
+
+.left2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.img 
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.img::after{
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(bg-about-img.png);
+
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.right2{
+    float: right;
+    height: 100%;
+    width: 50%; 
+   /* background-color: red; */
+   padding-top: 50px;
+   padding-left: 30px;
+}
+
+.up
+{
+    height: 60%;
+    width: 100%;
+}
+
+.up a{
+    color: #1363c6;
+    text-decoration: none;
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 2px 10px;
+    font-size: large;
+}
+
+.up h1{
+    color: #14183E;
+    font-size: 42px;
+}
+
+.up p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.down{
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 20px;
+}
+
+.cleft
+{
+    width: 50%;
+    height: 50%;
+    float: left;
+    /* padding: 20px; */
+    line-height: 40px;
+    
+}
+
+.cleft p {
+    font-size: 20px;
+}
+
+.cleft i{
+    color: #1363c6;
+    font-weight: bolder;
+}
+
+
+
+.cright
+{
+    width: 50%;
+    height: 50%;
+    float: right;
+    /* padding: 20px; */
+    line-height: 40px;
+}
+
+
+.cright p {
+    font-size: 20px;
+}
+
+.cright i{
+    color: #1363c6;
+    font-weight: bolder;
+}
+
+
+
+
+.button3 button {
+    margin-top: 8px;
+    background-color: #123866;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+}
+
+.button3 i{
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 2px solid #1363c6;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+
+/*  here the center part completes */
+
+.center2
+{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px 100px;
+   
+}
+
+.left3
+{
+    height: 100%;
+    width: 40%;
+    
+    padding-top: 150px;
+    float: left;
+    padding-right: 40px;
+}
+
+.left3 a{
+    color: #1363c6;
+    text-decoration: none;
+    padding: 5px 10px ;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+
+.left3 h1{
+    font-size: 45px;
+    color: #14183E;
+}
+
+.left3 p{
+    font-size: large;
+    color: gray;
+}
+
+.button4 button{
+    background-color: #1363c6;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+.right3
+{
+    height: 100%;
+    width: 60%;
+    padding-top: 50px;
+    /* background-color: red; */
+    float: right;
+}
+
+.card1{
+    height:45%;
+    width: 49%;
+    background-color: white;
+    float: left;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    /* box-shadow: 2px 2px 8px 8px gray; */
+}
+
+ .card1 i{
+   
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 30px;
+    border: 1px solid gray;
+    color: #1363c6;
+}
+
+.card1 h1{
+    padding-top: 10px;
+}
+
+.card1 p{
+    padding-top: 20px;
+    font-size: medium;
+    color: gray;
+}
+
+.card1 a{
+    text-decoration: none;
+    color: #1363c6;
+    /* padding: 10px 25px;
+    border: none;
+    background-color: #1363c6;
+    border-radius: 30px;
+    color: white; */
+}
+
+
+.card2{
+    margin-top: 15px;
+    height: 45%;
+    width: 49%;
+    background-color: white;
+    float: right;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+}
+
+.card2 i{
+   
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 30px;
+    border: 1px solid gray;
+    color: #1363c6;
+}
+
+.card2 h1{
+    padding-top: 10px;
+}
+
+.card2 p{
+    padding-top: 20px;
+    font-size: medium;
+    color: gray;
+}
+
+.card2 a{
+    text-decoration: none;
+    color: #1363c6;
+    /* padding: 10px 25px;
+    border: none;
+    background-color: #1363c6;
+    border-radius: 30px;
+    color: white; */
+}
+
+
+.card3{
+    margin-top: 15px;
+    height: 45%;
+    width: 49%;
+    background-color: white;
+    float: left;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+}
+
+.card3 i{
+   
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 30px;
+    border: 1px solid gray;
+    color: #1363c6;
+}
+
+.card3 h1{
+    padding-top: 10px;
+}
+
+.card3 p{
+    padding-top: 20px;
+    font-size: medium;
+    color: gray;
+}
+
+.card3 a{
+    text-decoration: none;
+    color: #1363c6;
+    /* padding: 10px 25px;
+    border: none;
+    background-color: #1363c6;
+    border-radius: 30px;
+    color: white; */
+}
+
+
+.card4{
+    margin-top: 15px;
+    height: 45%;
+    width: 49%;
+    background-color: white;
+    float: right;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.card4 i{
+   
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 30px;
+    border: 1px solid gray;
+    color: #1363c6;
+}
+
+.card4 h1{
+    padding-top: 10px;
+}
+
+.card4 p{
+    padding-top: 20px;
+    font-size: medium;
+    color: gray;
+}
+
+.card4 a{
+    text-decoration: none;
+    color: #1363c6;
+    /* padding: 10px 25px;
+    border: none;
+    background-color: #1363c6;
+    border-radius: 30px;
+    color: white; */
+}
+
+/*  here the center2 ends */
+
+.section3{
+    height: 100vh;
+    width: 100%;
+    background-color: #1363c6;
+    background-image: url(bg-hero.png);
+    background-size: cover ;
+    padding: 20px 100px;
+}
+
+.left4
+{
+    height: 100%;
+    width: 50%;
+    padding-top: 80px;
+    /* padding-right: 10px; */
+    /* background-color: blue; */
+    float: left;
+}
+
+.left4 a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.left4 h1{
+    padding-top: 20px;
+    font-size: 45px;
+    color: white;
+}
+
+
+.left4 p{
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+.count{
+    
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+    float: left;
+    /* background-color: red; */
+}
+
+.left5{
+    /* margin-top: 40px; */
+    width: 270px;
+    height: 100px;
+    padding: 0px 25px ;
+    border-radius: 10px;
+    float: left;
+    background-color: rgba(256,256,256,0.1);
+}
+
+.left5 h1{
+    font-size: 40px;
+}
+
+.left5 p{
+    margin-left: 80px;
+    font-size: medium;
+}
+
+
+
+.right5{
+    
+    margin-left: 20px;
+    width: 270px;
+    height: 100px;
+    padding: 0px 25px ;
+    border-radius: 10px;
+    float: left;
+    background-color: rgba(256,256,256,0.1);
+}
+
+.right5 h1{
+    font-size: 40px;
+}
+
+.right5 p{
+    margin-left: 68px;
+    font-size: medium;
+}
+
+
+.right4{
+    height:80%;
+    width: 50%;
+    float: right;  
+    background-image: url(feature.png);
+    background-size: cover;
+    margin-top: 160px;
+    
+}
+
+/*    HERE THE SECTION 2 ENDS HERE */
+
+
+.section4{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px 100px;
+    padding-top: 50px;
+}
+
+.casestudy{
+    padding: 50px;
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.casestudy a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px ;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.casestudy h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: #14183E;
+    
+}
+
+
+.templates{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    padding: 20px;
+}
+
+.box
+{
+
+    height: 100%;
+    width: 30%;
+    margin-left: 30px;
+    border-radius: 10px;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.img2 {
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(project-1.jpg);
+  background-size: cover    ;
+  border-radius: 10px;
+  position: relative;
+  
+}
+
+.img2 h4{
+    position: absolute;
+    top: 260px;
+    left: 15px;
+    padding: 10px 25px;
+    /* border: 1px  solid gray; */
+    background-color: #123866;
+    border-radius: 30px;
+    color: white;
+}
+
+.img2 p{
+    position: absolute;
+    top: 310px;
+    left: 18px;
+    font-size: large;
+    color: white;
+}
+
+.img2 i{
+    position: absolute;
+    left: 15px;
+    top: 370px;
+    font-size: x-large;
+    background-color: #1363c6;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+.img3 {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(project-2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    
+  }
+  
+  .img3 h4{
+      position: absolute;
+      top: 260px;
+      left: 15px;
+      padding: 10px 25px;
+      /* border: 1px  solid gray; */
+      background-color: #123866;
+      border-radius: 30px;
+      color: white;
+  }
+  
+  .img3 p{
+      position: absolute;
+      top: 310px;
+      left: 18px;
+      font-size: large;
+      color: white;
+  }
+  
+  .img3 i{
+      position: absolute;
+      left: 15px;
+      top: 370px;
+      font-size: x-large;
+      background-color: #1363c6;
+      padding: 10px;
+      border-radius: 50%;
+  }
+
+
+
+
+  
+.img4 {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(project-3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    
+  }
+  
+  .img4 h4{
+      position: absolute;
+      top: 260px;
+      left: 15px;
+      padding: 10px 25px;
+      /* border: 1px  solid gray; */
+      background-color: #123866;
+      border-radius: 30px;
+      color: white;
+  }
+  
+  .img4 p{
+      position: absolute;
+      top: 310px;
+      left: 18px;
+      font-size: large;
+      color: white;
+  }
+  
+  .img4 i{
+      position: absolute;
+      left: 15px;
+      top: 370px;
+      font-size: x-large;
+      background-color: #1363c6;
+      padding: 10px;
+      border-radius: 50%;
+  }
+
+
+
+
+
+  /* SECTION 5 STARTS FROM HERE... */
+
+  .section5{
+    width: 100%;
+    height: 80vh;
+    /* background-color: blue; */
+    padding: 20px 100px;
+  }
+
+  .faqs
+  {
+    width: 100%;
+    height: 30%;
+    padding-top: 30px;
+    /* background-color: slateblue; */
+    text-align: center;
+  }
+
+  .faqs a{
+    text-decoration: none;
+    font-size: large;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: #1363c6;
+  }
+
+  .faqs h1{
+    padding-top: 15px;
+    font-size: 40px;
+    /* padding-bottom: 20px; */
+  }
+
+
+  .questions{
+    width: 100%;
+    height: 70%;
+   
+  }
+
+  .left6{
+    width: 50%;
+    float: left;
+    height: 100%;
+    
+    padding-top: 50px;
+  }
+
+  .left6 p{
+   
+    padding: 15px 25px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: large;
+    color: gray;
+  
+  }
+
+  .left6 i{
+    
+    float: right;
+  }
+
+
+
+  .right6{
+    width: 50%;
+    height: 100%;
+    
+    padding-top: 50px;
+    float: right;
+    padding-left: 30px;
+
+  }
+
+  .right6 p{
+   
+    padding: 15px 25px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: large;
+    color: gray;
+  
+  }
+
+  .right6 i{
+    
+    float: right;
+  }
+
+
+  /*  HERE  THE SECTION 5 ENDS  */
+
+
+  .section6{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px 100px;
+  }
+
+  .left7{
+    height: 100%;
+    width: 50%;
+    /* background-color: cyan; */
+    padding-top: 250px;
+    padding-right: 20px;
+    float: left;
+  }
+
+  .left7 a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: #1363c6;
+  }
+
+  .left7 h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: #14183E;
+  }
+  .left7 p{
+    color: gray;
+    font-size: large;
+    margin-bottom: 20px;
+  }
+
+  .readmore {
+    float: left;
+
+  }
+
+
+  .readmore a{
+    
+    color: white;
+    padding: 10px 25px;
+    font-size: medium;
+    background-color: #123866;
+  }
+
+  .right7{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    float: right;
+  }
+
+  .card5{
+    width: 48%;
+    height: 45%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 0px 6px;
+  }
+
+  .card5:nth-child(2){
+    width: 48%;
+    height: 45%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 6px ;
+  }
+
+
+  .card5:nth-child(4){
+    width: 48%;
+    height: 45%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 6px ;
+  }
+
+
+  .imgbox{
+    height: 50%;
+    width: 50%;
+    background-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+
+  .imgbox img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .content{
+    text-align: center;
+    padding-top: 30px;
+
+  }
+
+  .content h2{
+    color: black;
+  }
+
+  .content p{
+    margin-top: 5px;
+    color: gray;
+  }
+
+  .content i{
+    margin: 0px 13px;
+    background-color: #1363c6;
+    border-radius: 50%;
+    color: white;
+    padding: 10px 12px;
+  } 
+
+
+  /*  here the section 6 ends */
+
+
+  .section7
+  {
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    padding: 20px 100px;
+  }
+
+
+  .left8
+  {
+    padding-top: 100px;
+    padding-right: 40px;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    float: left;
+    border-right: 1px solid #1363c6;
+  }
+
+  .left8 a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    color: #1363c6;
+  }
+
+  .left8 h1{
+    margin-top: 20px;
+    color: #14183E;
+    font-weight: 800;
+    font-size: 40px;
+  }
+
+  .left8 p{
+    color: grey;
+    font-size: large;
+  }
+
+  .readmore4 a{
+    float: left;
+    margin-top: 10px;
+    background-color: #14183E;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+  }
+
+
+  .right8{
+    padding-top: 90px;
+    padding-left: 50px;
+    float: right;
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+  }
+
+  .right8 i{
+    font-size: 40px;
+    color: #1363c6;
+  }
+
+  .right8 p{
+    padding-top: 20px;
+    font-size: x-large;
+    color: gray;
+
+  }
+
+  .imgcircle{
+    float: left;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .imgcircle img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 50%;
+  }
+
+  .down{
+    height: 120px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 20px;
+  }
+
+  .text
+  {
+    float: right;
+    height: 60px;
+    width: 250px;
+    /* background-color: aqua; */
+    margin-right: 240px;
+  }
+
+  .text h2{
+    font-size: x-large;
+    color: #14183E;
+    font-weight: 500;
+  }
+
+  .text p{
+    font-size: 18px;
+    margin-top: -15px;
+    
+  }
+
+  /*  SECTION 7 ENDS HERE */
+
+
+  .section8
+  {
+    height: 60vh;
+    width: 100%;
+    background-color: #1363c6;
+    background-image: url(bg-hero.png);
+    background-size: cover;
+    padding-top: 0px;
+    /* padding-left: 100px; */
+    padding-right: 100px;
+
+  }
+
+  .left9 {
+    height:100%;
+    padding-top: 40px ;
+    width: 40%;
+    float: left;
+    /* background-color: red; */
+  }
+
+  .right9{
+    padding: 110px;
+    height: 100%;
+    float: right;
+    width: 60%;
+    /* background-color: rebeccapurple; */
+  }
+
+  .right9 a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+
+  }
+
+  .right9 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .right9 p{
+    width: 100%;
+    padding: 15px 25px;
+    background-color: aliceblue;
+    float: left;
+    border-radius: 5px;
+    color: gray;
+  }
+
+  .right9 i{
+    float: right;
+    font-size: large;
+  }
+
+  .right9 span{
+    /* padding-top: 50px; */
+    color: gray;
+    margin-left: 10px;
+  }
+
+
+  /*  section 8 ends here */
+  
+  footer{
+    padding: 20px 100px;
+    height: 60vh;
+    width: 100%;
+    background-color: #14183E;
+    background-size: cover;
+    background-image: url(footer.png);
+  }
+
+  .footerbox {
+    margin-top: 25px;
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+
+
+  .footer1
+  {
+    padding-top: 70px;
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 20px;
+  }
+
+  .footer1 h1 ,h2{
+    display: inline;
+    /* float: left; */
+    /* font-size: 50px; */
+    font-weight: 700;
+    color: white;
+  }
+
+
+  .footer1 h2{
+    display: inline;
+    /* float: left; */
+    /* font-size: 50px; */
+    font-weight: 700;
+    color: white;
+  }
+
+
+
+  .footer1 h2{
+    color: #1363c6;
+  }
+
+
+  .footer1 p{
+    margin-top: 20px;
+    font-size: large;
+    color: gray;
+  }
+
+
+  .footer2
+  {
+    padding-top: 70px ;
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 20px;
+    padding-left: 15px;
+  }
+
+  .footer2 h2{
+    
+    font-size: x-large;
+  }
+
+  .footer2 i{
+    padding-right: 10px;
+  }
+
+  .footer2 p{
+    line-height: 30px;
+    color: gray;
+  }
+
+  .iconbox {
+
+    padding-top: 17px;
+    width: 100%;
+    height: 70px;
+  
+
+  }
+
+
+  .iconbox i{
+    margin: 10px;
+    padding: 10px;
+   color: gray;
+   border-radius: 50%;
+   border: 1px solid gray;
+  } 
+
+
+  .footer3
+  {
+    padding-top: 70px ; 
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 20px;
+  }
+
+  .footer3 h2{
+    
+    font-size: x-large;
+  }
+
+
+  .footer3 i{
+    padding-right: 10px;
+  }
+
+  .footer3 p{
+    line-height: 30px;
+    color: gray;
+  }
+
+
+
+  .footer4
+  {
+    padding-top: 70px;
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 20px;
+  }
+
+
+  .footer4 h2{
+    
+    font-size: x-large;
+  }
+
+
+  .footer4 i{
+    padding-right: 10px;
+  }
+
+  .footer4 p{
+    line-height: 30px;
+    color: gray;
+  }
